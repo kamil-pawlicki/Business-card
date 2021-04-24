@@ -1,61 +1,65 @@
 html {
-    box-sizing: border-box;
-  }
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.body {
+  background-color: #2c2141;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.main {
+  background-color: #f8f8f8;
+  border-radius: 16px;
+  padding: 32px;
+  width: 624px;
   
-  *,
-  *:before,
-  *:after {
-    box-sizing: inherit;
-  }
+  margin: 16px;
+}
+.person {
+  display: flex;
+}
+.person__picture {
+  align-self: flex-start;
+  padding-right: 32px;
+}
+.person__name {
+  margin: 0;
+  font-size: 36px;
+  font-weight: normal;
+  
+}
+.person__jobTittle {
+  color: #545454;
+  margin: 0;
+  font-style: italic;
+  font-size: 18px;
+  
+}
+.person__description {
+    line-height: 22px;
+    font-size: 16px;
+    margin: 0;
+    padding-top: 24px;
+}
 
-  .body {
-      background-color: #2C2141;
-      display: flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
-  }
-  .main {
-    background-color: #F8F8F8;
-    border-radius: 16px;
-    padding: 32px;
-    width: 624px;
-    font-family: Arial, normal;
-   
-  }
-  .person {
-      
-    display: flex;
-    
-    
-    
-  }
-  .person__picture {
-    align-self: flex-start;
-    
-    
-  }
-  .person__name {
-      margin-top: 0;
-      margin-bottom: 0;
-
-  }
-  .person__jobTittle {
-      color: #545454;
-    
-  }
-  .person__description {
-
-  }
-  .person__description--link {
-      font-style: normal;
-      text-decoration: none;
-      color: #E20613;
-
-  }
-  .special {
-      color: #ED6D05;
-      font-style: normal;
-      text-decoration: none;
-
-  }
+.person__description--link {
+  font-style: normal;
+  font-size: 16px;
+  text-decoration: none;
+  color: #e20613;
+}
+.special {
+  color: #ed6d05;
+  font-style: normal;
+  text-decoration: none;
+  font-style: normal;
+}
