@@ -49,17 +49,15 @@ html {
     font-size: 16px;
     margin: 0;
     padding-top: 24px;
+    font-weight: normal;
 }
 
 .person__description--link {
-  font-style: normal;
-  font-size: 16px;
+  
   text-decoration: none;
   color: #e20613;
 }
 .special {
   color: #ed6d05;
-  font-style: normal;
-  text-decoration: none;
-  font-style: normal;
+  font-weight: normal;
 }
