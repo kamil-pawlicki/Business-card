@@ -11,9 +11,9 @@ html {
   .body {
       background-color: #2C2141;
       display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
   }
   .main {
     background-color: #F8F8F8;
@@ -21,21 +21,31 @@ html {
     padding: 32px;
     width: 624px;
     font-family: Arial, normal;
+   
   }
   .person {
       
-     
+    display: flex;
+    
+    
+    
+  }
+  .person__picture {
+    align-self: flex-start;
+    
+    
   }
   .person__name {
-      
+      margin-top: 0;
+      margin-bottom: 0;
 
   }
   .person__jobTittle {
       color: #545454;
-    margin-bottom: 24px;
+    
   }
   .person__description {
-margin-bottom: 22px;
+
   }
   .person__description--link {
       font-style: normal;
